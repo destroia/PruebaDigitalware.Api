@@ -1,0 +1,9 @@
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\obj\Debug\netcoreapp3.1\PruebaDigitalware.Models.csprojAssemblyReference.cache
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\obj\Debug\netcoreapp3.1\PruebaDigitalware.Models.AssemblyInfoInputs.cache
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\obj\Debug\netcoreapp3.1\PruebaDigitalware.Models.AssemblyInfo.cs
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\obj\Debug\netcoreapp3.1\PruebaDigitalware.Models.csproj.CoreCompileInputs.cache
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\bin\Debug\netcoreapp3.1\PruebaDigitalware.Models.deps.json
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\bin\Debug\netcoreapp3.1\PruebaDigitalware.Models.dll
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\bin\Debug\netcoreapp3.1\PruebaDigitalware.Models.pdb
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\obj\Debug\netcoreapp3.1\PruebaDigitalware.Models.dll
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Models\obj\Debug\netcoreapp3.1\PruebaDigitalware.Models.pdb

@@ -1,0 +1,143 @@
+<br />
+<dir class="container">
+  <dir class="mx-auto" style="width: 200px;">
+    <h1 class="text-success">
+      Productos
+    </h1>
+  </dir>
+  <br />
+  <br />
+
+  <div class="row">
+
+
+
+    <div class="col-3">
+      <div class="row  w-100 align-items-center">
+
+        <div class="col-6 ">
+          <div class="btn-group">
+            <button class="btn btn-success" (click)="LookCreate()">Crear Produto  </button>
+            <button class="btn btn-warning" (click)="Tienda()">Ir Comprar  </button>
+            <button class="btn btn-info" (click)="Facturas()">Facturas  </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row  w-100 align-items-center">
+
+        <div class="col-6 ">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <div   *ngIf="lookForm" class="card">
+    <form [formGroup]="formularioProductos" style="margin:50px;">
+      <div class="row">
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control" formControlName="nombre" placeholder="Nombre de Producto">
+            <p *ngIf="formularioProductos.controls['nombre'].invalid && formularioProductos.controls['nombre'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Costo</label>
+            <input type="number" class="form-control" placeholder="Costo de producto" formControlName="costo">
+            <p  *ngIf="formularioProductos.controls['costo'].invalid && formularioProductos.controls['costo'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Valor</label>
+            <input type="number" class="form-control" placeholder="Valor de producto" formControlName="valor">
+            <p *ngIf="formularioProductos.controls['valor'].invalid && formularioProductos.controls['valor'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Cantidad</label>
+            <input type="number" class="form-control" placeholder="Cantidad de producto" formControlName="cantidad">
+            <p *ngIf="formularioProductos.controls['cantidad'].invalid && formularioProductos.controls['cantidad'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+
+      </div>
+    </form>
+
+
+  </div>
+
+
+  <h3 *ngIf="errorCrear" class="text-danger">
+    Error
+  </h3>
+  <div *ngIf="lookCrear" class="row  w-100 align-items-center" style="transform:translate(50px,-50px)">
+
+    <div class="col-12 ">
+      <button class="btn btn-success" [disabled]="!formularioProductos.valid" (click)="CrearProducto()">Crear Producto  </button>
+    </div>
+  </div>
+  <div *ngIf="lookUpdate" class="row  w-100 align-items-center" style="transform:translate(50px,-50px)">
+
+    <div class="col-12 ">
+      <button class="btn btn-success" [disabled]="!formularioProductos.valid" (click)="Actualizar()">Actializar Producto  </button>
+    </div>
+  </div>
+
+  <br />
+  <br />
+
+
+  
+
+  <div class="table-responsive ">
+    <table class="table  table-striped">
+      <thead>
+        <tr class="table-striped ">
+          <th scope="col">Id </th>
+          <th scope="col">Nombre </th>
+          <th scope="col">osto</th>
+          <th scope="col">Valor</th>
+          <th scope="col">Cantidad</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let li of listaProductos" class="table-striped ">
+
+          <td>{{li.id}} </td>
+          <td>{{li.nombre}}</td>
+          <td>{{li.costo}}</td>
+          <td>{{li.valor}}</td>
+          <td>{{li.cantidad}}</td>
+          <td>
+            <div class="btn-group" role="group">
+
+
+
+              <button (click)="Update(li)" class="btn btn-success">Update</button>
+              <button (click)="Eliminar(li)" class="btn btn-danger">Eliminar</button>
+            </div>
+
+
+          </td>
+          <td>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</dir>
+

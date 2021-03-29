@@ -1,0 +1,45 @@
+<dir class="mx-auto" style="width: 200px;">
+  <h1 class="text-success">
+    Facturas
+  </h1>
+</dir>
+<br />
+<br />
+
+<div class="table-responsive ">
+  <table class="table  table-striped">
+    <thead>
+      <tr class="table-striped ">
+        <th scope="col">Id </th>
+        <th scope="col">ClienteId </th>
+        <th scope="col">Total</th>
+        <th scope="col">Fecha</th>
+        <th scope="col">Cantidad</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let li of ListaFacturas" class="table-striped ">
+
+        <td>{{li.id}} </td>
+        <td>{{li.clienteId}}</td>
+        <td>{{li.total}}</td>
+        <td>{{li.fecha}}</td>
+        
+        <td>
+          <div class="btn-group" role="group">
+
+
+
+            <button (click)="Ver(li)" class="btn btn-success">Ver</button>
+           
+          </div>
+
+
+        </td>
+        <td>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

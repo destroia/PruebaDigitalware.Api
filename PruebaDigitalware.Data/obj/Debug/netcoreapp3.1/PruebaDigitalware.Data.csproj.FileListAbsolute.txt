@@ -1,0 +1,15 @@
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\bin\Debug\netcoreapp3.1\PruebaDigitalware.Data.deps.json
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\bin\Debug\netcoreapp3.1\PruebaDigitalware.Data.runtimeconfig.json
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\bin\Debug\netcoreapp3.1\PruebaDigitalware.Data.runtimeconfig.dev.json
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\bin\Debug\netcoreapp3.1\PruebaDigitalware.Data.dll
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\bin\Debug\netcoreapp3.1\PruebaDigitalware.Data.pdb
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\bin\Debug\netcoreapp3.1\PruebaDigitalware.Models.dll
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\bin\Debug\netcoreapp3.1\PruebaDigitalware.Models.pdb
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\obj\Debug\netcoreapp3.1\PruebaDigitalware.Data.csprojAssemblyReference.cache
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\obj\Debug\netcoreapp3.1\PruebaDigitalware.Data.AssemblyInfoInputs.cache
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\obj\Debug\netcoreapp3.1\PruebaDigitalware.Data.AssemblyInfo.cs
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\obj\Debug\netcoreapp3.1\PruebaDigitalware.Data.csproj.CoreCompileInputs.cache
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\obj\Debug\netcoreapp3.1\PruebaDigitalware.Data.csproj.CopyComplete
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\obj\Debug\netcoreapp3.1\PruebaDigitalware.Data.dll
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\obj\Debug\netcoreapp3.1\PruebaDigitalware.Data.pdb
+C:\Users\destr\source\repos\PruebaDigitalware.Api\PruebaDigitalware.Data\obj\Debug\netcoreapp3.1\PruebaDigitalware.Data.genruntimeconfig.cache

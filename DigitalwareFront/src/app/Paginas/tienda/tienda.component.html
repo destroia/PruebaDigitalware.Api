@@ -1,0 +1,51 @@
+<dir class="mx-auto" style="width: 200px;">
+  <h1 class="text-success">
+    Tienda
+  </h1>
+</dir>
+<br />
+
+<div class="container">
+  <h3>Ir Al Carrito </h3>
+  <button *ngIf="lookBtnCarrito" class="btn btn-warning" (click)="Comprar()">
+    Comprar
+  </button>
+  <div class="table-responsive ">
+    <table class="table  table-striped">
+      <thead>
+        <tr class="table-striped ">
+          <th scope="col">id</th>
+          <th scope="col">Nombre </th>
+          <th scope="col">Valor</th>
+          <th scope="col">Cantidad</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let li of ListProductos" class="table-striped ">
+          <td>{{li.id}} </td>
+          <td>{{li.nombre}}</td>
+          <td>{{li.valor}}</td>
+          <td>{{li.canidad}}</td>
+
+          <td>
+            <div class="btn-group" role="group">
+
+
+              <button (click)="Menos(li)" class="btn btn-secondary">-</button>
+              <input type="number" min="1" value="{{li.cantidadPedido }}" width="20" />
+              <button (click)="Mas(li)" class="btn btn-secondary">+</button>
+              <button (click)="Agregar(li)" class="btn btn-success">Agregar</button>
+              <button (click)="Eliminar(li)" class="btn btn-danger">Eliminar</button>
+            </div>
+
+
+          </td>
+          <label></label>
+          <td>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

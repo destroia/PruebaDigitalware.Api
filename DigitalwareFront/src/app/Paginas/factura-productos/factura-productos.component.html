@@ -1,0 +1,33 @@
+<dir class="mx-auto" style="width: 200px;">
+  <h1 class="text-success">
+    Facturas prductos
+  </h1>
+</dir>
+<br />
+<br />
+
+<div class="table-responsive ">
+  <table class="table  table-striped">
+    <thead>
+      <tr class="table-striped ">
+        <th scope="col">Id </th>
+        <th scope="col">ClienteId </th>
+        <th scope="col">Total</th>
+        <th scope="col">Fecha</th>
+        <th scope="col">Cantidad</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let li of FacturaProductos" class="table-striped ">
+
+        <td>{{li.id}} </td>
+        <td>{{li.facturaId}}</td>
+        <td>{{li.productoId}}</td>
+        <td>{{li.nombre}}</td>
+        <td>{{li.cantidad}}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
